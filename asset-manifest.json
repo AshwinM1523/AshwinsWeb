@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AshwinsWeb/static/css/main.b80c9cc6.css",
-    "main.js": "/AshwinsWeb/static/js/main.280dcb70.js",
+    "main.css": "/AshwinsWeb/static/css/main.c8af1da2.css",
+    "main.js": "/AshwinsWeb/static/js/main.29f89d83.js",
     "static/js/787.28cb0dcd.chunk.js": "/AshwinsWeb/static/js/787.28cb0dcd.chunk.js",
     "static/media/bike-ride-pokemon-emerald-pixel-moewalls-com.mp4": "/AshwinsWeb/static/media/bike-ride-pokemon-emerald-pixel-moewalls-com.56497e3506f3424a94b4.mp4",
     "static/media/wedding.jpg": "/AshwinsWeb/static/media/wedding.dbc200a9ca7b20ac6de0.jpg",
@@ -14,12 +14,12 @@
     "static/media/signature.png": "/AshwinsWeb/static/media/signature.eeb270d739275114132f.png",
     "index.html": "/AshwinsWeb/index.html",
     "static/media/nav-icon1.svg": "/AshwinsWeb/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.b80c9cc6.css.map": "/AshwinsWeb/static/css/main.b80c9cc6.css.map",
-    "main.280dcb70.js.map": "/AshwinsWeb/static/js/main.280dcb70.js.map",
+    "main.c8af1da2.css.map": "/AshwinsWeb/static/css/main.c8af1da2.css.map",
+    "main.29f89d83.js.map": "/AshwinsWeb/static/js/main.29f89d83.js.map",
     "787.28cb0dcd.chunk.js.map": "/AshwinsWeb/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b80c9cc6.css",
-    "static/js/main.280dcb70.js"
+    "static/css/main.c8af1da2.css",
+    "static/js/main.29f89d83.js"
   ]
 }
