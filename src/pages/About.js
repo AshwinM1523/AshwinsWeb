@@ -36,7 +36,7 @@ export const About = () => {
   return (
     <div>
       <Row style={{ padding: "1rem" }}>
-        <Col lg={4} md={12} xs={12}>
+        <Col lg={4} md={12} xs={12} className="mb-4">
           <div className="cardAboutOne">
             <img
               src={avatarImg}
@@ -55,19 +55,18 @@ export const About = () => {
             </h4>
           </div>
         </Col>
-        <Col lg={8} md={12} xs={12}>
+        <Col lg={8} md={12} xs={12} className="mb-2">
           <div
             className="gradient-bordered-card"
             style={{
               backgroundColor: "#191919",
-              height: "400px",
               color: "white",
             }}
           >
             <Card.Body
               style={{
-                textAlign: "left",
-                padding: "2.5rem 1.2rem 1.2rem 1.2rem",
+                textAlign: "center",
+                padding: "2.5rem 1.2rem 3rem 1.2rem",
               }}
             >
               <Card.Title
@@ -105,70 +104,70 @@ export const About = () => {
         </Col>
       </Row>
       <Row style={{ padding: "1rem" }}>
-        <Col lg={6} md={12} xs={12}>
+        <Col lg={6} md={12} xs={12} className="mb-3">
           <div
             className="gradient-bordered-card"
-            style={{ background: "#191919", height: "415px" }}
+            style={{ background: "#191919", overflow: "hidden" }}
           >
             <Card.Body
               style={{
                 textAlign: "left",
-                paddingLeft: "2rem",
                 paddingTop: "2rem",
                 color: "white",
               }}
             >
-              <Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
                 <h3>Work Experience</h3>
               </Card.Title>
-              <Card.Text>
-                <div style={{ fontWeight: "bold", marginTop: "1rem" }}>
-                  Computer Science Co-op
-                </div>
-                <div style={{ marginTop: "0.5rem" }}>
-                  Ontario Power Generation | January 2023 - April 2023
-                </div>
-                <ul style={{ marginTop: "0.5rem" }}>
-                  <li>
+              <Card.Text style={{}}>
+                <div style={{ width: "90%", paddingLeft: "2.5rem" }}>
+                  <div style={{ fontWeight: "bold", marginTop: "1rem" }}>
+                    Computer Science Co-op
+                  </div>
+                  <div style={{ marginTop: "0.5rem" }}>
+                    Ontario Power Generation | January 2023 - April 2023
+                  </div>
+                  <div style={{ marginTop: "0.5rem" }}>
                     Fostered the development of a ticketing system web
-                    application, comprising three different apps, which was
-                    launched to all 10,000 employees. The project utilized
-                    PowerPlatform, Azure, HTML, CSS, and the SendGrid API
-                  </li>
-                  <li style={{ marginTop: "0.5rem" }}>
-                    Created Python and PowerShell scripts to automate tasks and
-                    streamline workflows, including tasks such as system
-                    monitoring, ticket assistance, and data manipulation.
-                  </li>
-                </ul>
-                <h7>Skills</h7>
-                <Row style={{ marginTop: "0.5rem" }}>
-                  <Col lg={4} md={4} xs={4}>
-                    <ul>
-                      <li>Mobile Application Development</li>
-                      <li>Microsoft Azure</li>
-                    </ul>
-                  </Col>
-                  <Col lg={4} md={4} xs={4}>
-                    <ul>
-                      <li>REST APIs</li>
-                      <li>Microsoft Power Platform</li>
-                    </ul>
-                  </Col>
-                  <Col lg={4} md={4} xs={4}>
-                    <ul>
-                      <li>HTML CSS XAML</li>
-                      <li>Powershell</li>
-                    </ul>
-                  </Col>
-                </Row>
+                    application, comprising 3 different apps, which was launched
+                    to all 10,000 employees. The project utilized PowerPlatform,
+                    Azure, HTML, CSS, and the SendGrid API
+                  </div>
+                  <div style={{ marginTop: "0.5rem" }}>
+                    Used Python and PowerShell scripts to automate tasks and
+                    streamline work, including tasks such as system monitoring,
+                    ticket assistance, and data manipulation.
+                  </div>
+                </div>
+                <div style={{ paddingLeft: "1rem", marginTop: "1.5rem" }}>
+                  <Row style={{ marginTop: "0.5rem" }}>
+                    <Col lg={4} md={4} xs={4}>
+                      <ul>
+                        <li>Mobile Application Development</li>
+                        <li>Microsoft Azure</li>
+                      </ul>
+                    </Col>
+                    <Col lg={4} md={4} xs={4}>
+                      <ul>
+                        <li>PowerShell</li>
+                        <li>Microsoft Power Platform</li>
+                      </ul>
+                    </Col>
+                    <Col lg={4} md={4} xs={4}>
+                      <ul>
+                        <li>HTML CSS XAML</li>
+                        <li>REST APIs</li>
+                      </ul>
+                    </Col>
+                  </Row>
+                </div>
               </Card.Text>
             </Card.Body>
           </div>
         </Col>
         <Col lg={6} md={12} xs={12}>
           <Row>
-            <Col lg={4} md={4} xs={12}>
+            <Col lg={4} md={4} xs={6} className="mb-3">
               <div
                 className="gradient-bordered-card"
                 style={{
@@ -197,7 +196,7 @@ export const About = () => {
                 </Card.Body>
               </div>
             </Col>
-            <Col lg={4} md={4} xs={12}>
+            <Col lg={4} md={4} xs={6} className="mb-3">
               <div
                 className="gradient-bordered-card"
                 style={{
@@ -256,12 +255,17 @@ export const About = () => {
               </div>
             </Col>
           </Row>
-          <Col lg={12} md={12} xs={12} style={{ marginTop: "1rem" }}>
+          <Col
+            lg={12}
+            md={12}
+            xs={12}
+            style={{ marginTop: "1rem" }}
+            className="mb-3"
+          >
             <div
               className="gradient-bordered-card"
               style={{
                 background: "#191919",
-                height: "100px",
                 color: "white",
               }}
             >
@@ -274,7 +278,7 @@ export const About = () => {
                     alignItems: "center",
                   }}
                 >
-                  <ul>
+                  <ul style={{ paddingBottom: "1.7rem" }}>
                     <li style={{ float: "left", margin: "0 10px" }}>
                       {Certifications[0]}
                     </li>

@@ -71,9 +71,7 @@ export const Banner = () => {
             <Card
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.5)",
-                width: "65%",
                 color: "white",
-                borderRadius: "30px",
                 padding: "1.5rem",
               }}
             >

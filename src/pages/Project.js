@@ -20,7 +20,13 @@ export const Project = () => {
         textAlign: "left",
       }}
     >
-      <h1 style={{ marginBottom: "1.5rem", paddingLeft: "1.5rem" }}>
+      <h1
+        style={{
+          marginBottom: "1.5rem",
+          paddingLeft: "1.5rem",
+          textAlign: "center",
+        }}
+      >
         Projects
       </h1>
       <ProjectCard

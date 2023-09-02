@@ -8,8 +8,11 @@ export const Footer = () => {
         style={{ backgroundColor: "#02040a", color: "white" }}
       >
         © 2023 Copyright:
-        <a style={{ color: "white" }} href="https://mdbootstrap.com/">
-          Ashwin.com
+        <a
+          style={{ color: "white" }}
+          href="https://ashwinm1523.github.io/AshwinsWeb/"
+        >
+          AshwinsWeb
         </a>
       </div>
     </footer>

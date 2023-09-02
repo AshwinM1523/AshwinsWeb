@@ -49,7 +49,7 @@ function Accordion() {
           paddingTop: "0.5rem",
         }}
       >
-        <div>
+        <div style={{ textAlign: "center" }}>
           <h1 style={{ marginLeft: "0.5rem", marginBottom: "1rem" }}>
             Courses
           </h1>

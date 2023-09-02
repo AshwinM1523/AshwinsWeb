@@ -74,7 +74,7 @@ export const Contact = () => {
         textAlign: "left",
       }}
     >
-      <h1>Contact Me</h1>
+      <h1 style={{ textAlign: "center" }}>Contact Me</h1>
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-group" style={{ marginBottom: "0.5rem" }}>
           <label htmlFor="nameinput" style={{ marginBottom: "0.5rem" }}>

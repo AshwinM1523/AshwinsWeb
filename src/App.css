@@ -291,7 +291,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .gradient-bordered-card {
   position: relative;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .gradient-bordered-card::before,
