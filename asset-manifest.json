@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/AshwinsWeb/static/css/main.c8af1da2.css",
-    "main.js": "/AshwinsWeb/static/js/main.29f89d83.js",
+    "main.js": "/AshwinsWeb/static/js/main.3effb753.js",
     "static/js/787.28cb0dcd.chunk.js": "/AshwinsWeb/static/js/787.28cb0dcd.chunk.js",
     "static/media/bike-ride-pokemon-emerald-pixel-moewalls-com.mp4": "/AshwinsWeb/static/media/bike-ride-pokemon-emerald-pixel-moewalls-com.56497e3506f3424a94b4.mp4",
     "static/media/wedding.jpg": "/AshwinsWeb/static/media/wedding.dbc200a9ca7b20ac6de0.jpg",
     "static/media/forkify.jpg": "/AshwinsWeb/static/media/forkify.abd32f6ec0af8b1d7831.jpg",
     "static/media/IMG_3553.jpg": "/AshwinsWeb/static/media/IMG_3553.60aafc7c0c2904ed9a69.jpg",
+    "static/media/app.jpg": "/AshwinsWeb/static/media/app.1fe192e45718a5d0d9a9.jpg",
     "static/media/githubAvatar.jpg": "/AshwinsWeb/static/media/githubAvatar.8b1702e3137c4e1c9e54.jpg",
     "static/media/CoBuild.jpg": "/AshwinsWeb/static/media/CoBuild.c284d96711dacb7d9b36.jpg",
     "static/media/connect.jpeg": "/AshwinsWeb/static/media/connect.57a35dc230ec46c2be8b.jpeg",
@@ -15,11 +16,11 @@
     "index.html": "/AshwinsWeb/index.html",
     "static/media/nav-icon1.svg": "/AshwinsWeb/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.c8af1da2.css.map": "/AshwinsWeb/static/css/main.c8af1da2.css.map",
-    "main.29f89d83.js.map": "/AshwinsWeb/static/js/main.29f89d83.js.map",
+    "main.3effb753.js.map": "/AshwinsWeb/static/js/main.3effb753.js.map",
     "787.28cb0dcd.chunk.js.map": "/AshwinsWeb/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8af1da2.css",
-    "static/js/main.29f89d83.js"
+    "static/js/main.3effb753.js"
   ]
 }
