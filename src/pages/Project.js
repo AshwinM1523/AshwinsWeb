@@ -6,6 +6,7 @@ import Connect from "../assets/img/connect.jpeg";
 import Forkify from "../assets/img/forkify.jpg";
 import Mapty from "../assets/img/mapty.jpg";
 import Wedding from "../assets/img/wedding.jpg";
+import App from "../assets/img/app.jpg";
 
 export const Project = () => {
   return (
@@ -57,7 +58,7 @@ export const Project = () => {
       />
       <ProjectCard
         title={"UofT Course App"}
-        imgUrl={CoBuild}
+        imgUrl={App}
         description={
           "A Mobile App That Allows Students To Track Courses And Plan Their Schedules"
         }
