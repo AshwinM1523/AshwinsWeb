@@ -54,7 +54,6 @@ export const Project = () => {
         avatar={avatarImg}
         name={"Ashwin Mallik"}
         role={"Full Stack Developer (Co-Partner)"}
-        projectLink={"https://github.com/AshwinM1523/Connect"}
       />
       <ProjectCard
         title={"CoBuild"}
