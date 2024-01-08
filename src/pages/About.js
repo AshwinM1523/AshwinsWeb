@@ -94,10 +94,9 @@ export const About = () => {
                 football club Barcelona, and I love playing sports like soccer,
                 basketball, and badminton. Additionally, I have a penchant for
                 gaming, particularly enjoying titles such as Pokemon, Tetris,
-                and strategy-based team games. My interests extend to travel and
-                language acquisition; at present, I'm in the process of learning
-                Nepali. Moreover, I am an active volunteer within my community,
-                currently dedicating my time to the town of Ajax.
+                and strategy-based team games. Moreover, I am an active
+                volunteer within my community, currently dedicating my time to
+                the town of Ajax.
               </Card.Text>
             </Card.Body>
           </div>
@@ -128,15 +127,14 @@ export const About = () => {
                     Ontario Power Generation | January 2023 - April 2023
                   </div>
                   <div style={{ marginTop: "0.5rem" }}>
-                    Fostered the development of a ticketing system web
-                    application, comprising 3 different apps, which was launched
-                    to all 10,000 employees. The project utilized PowerPlatform,
-                    Azure, HTML, CSS, and the SendGrid API
+                    Developed an internal company app system using PowerApps,
+                    Azure, HTML, CSS, SQL and the SendGrid API, enabling 10,000+
+                    employees to create IT system tickets for special requests.
                   </div>
                   <div style={{ marginTop: "0.5rem" }}>
-                    Used Python and PowerShell scripts to automate tasks and
-                    streamline work, including tasks such as system monitoring,
-                    ticket assistance, and data manipulation.
+                    Engineered efficient GUI-based internal tools with Python,
+                    PowerShell, XAML, and Visual Studio accelerating processes
+                    for multiple teams across the province.
                   </div>
                 </div>
                 <div style={{ paddingLeft: "1rem", marginTop: "1.5rem" }}>

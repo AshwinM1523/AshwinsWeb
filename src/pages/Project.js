@@ -31,6 +31,20 @@ export const Project = () => {
         Projects
       </h1>
       <ProjectCard
+        title={"Article Classification"}
+        imgUrl={Mapty}
+        description={
+          "Implementation from scratch of Gaussian Naive Bayes and Naive Bayes for the classification of articles"
+        }
+        year={2022}
+        avatar={avatarImg}
+        name={"Ashwin Mallik"}
+        role={"Developer"}
+        projectLink={
+          "https://github.com/AshwinM1523/BBC-Article-Classification"
+        }
+      />
+      <ProjectCard
         title={"Connect"}
         imgUrl={Connect}
         description={
@@ -91,20 +105,6 @@ export const Project = () => {
         role={"Developer"}
         projectLink={
           "https://github.com/AshwinM1523/forkify-course-project-ashwin"
-        }
-      />
-      <ProjectCard
-        title={"Mapty"}
-        imgUrl={Mapty}
-        description={
-          "A Platform That Allows Users To Save Their Workouts On A Map"
-        }
-        year={2022}
-        avatar={avatarImg}
-        name={"Ashwin Mallik"}
-        role={"Developer"}
-        projectLink={
-          "https://github.com/AshwinM1523/workout-map-course-project"
         }
       />
     </div>
