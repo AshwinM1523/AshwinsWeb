@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { Container } from "react-bootstrap";
+import "./Contact.css";
 
 export const Contact = () => {
   const form = useRef();
@@ -65,78 +67,74 @@ export const Contact = () => {
   };
 
   return (
-    <div
-      style={{
-        margin: "1rem",
-        background: "#1c1c1e",
-        borderRadius: "30px",
-        padding: "2rem",
-        textAlign: "left",
-      }}
-    >
-      <h1 style={{ textAlign: "center" }}>Contact Me</h1>
-      <form ref={form} onSubmit={sendEmail}>
-        <div className="form-group" style={{ marginBottom: "0.5rem" }}>
-          <label htmlFor="nameinput" style={{ marginBottom: "0.5rem" }}>
-            Name
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="nameinput"
-            aria-describedby="namehelp"
-            placeholder="Enter Name"
-            name="user_name"
-          />
-          {validationErrors.name && (
-            <small className="form-text" style={{ color: "red" }}>
-              {validationErrors.name}
-            </small>
-          )}
-        </div>
-        <div className="form-group" style={{ marginBottom: "0.5rem" }}>
-          <label
-            htmlFor="exampleInputEmail1"
-            style={{ marginBottom: "0.5rem" }}
-          >
-            Email Address
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            placeholder="Enter Email"
-            name="user_email"
-          />
-          {validationErrors.email && (
-            <small className="form-text" style={{ color: "red" }}>
-              {validationErrors.email}
-            </small>
-          )}
-        </div>
-        <div className="form-group" style={{ marginBottom: "0.5rem" }}>
-          <label htmlFor="message" style={{ marginBottom: "0.5rem" }}>
-            Message
-          </label>
-          <textarea
-            className="form-control"
-            id="message"
-            aria-describedby="messageHelp"
-            placeholder="Enter Message"
-            style={{ height: "150px", verticalAlign: "top" }}
-            name="message"
-          ></textarea>
-          {validationErrors.message && (
-            <small className="form-text " style={{ color: "red" }}>
-              {validationErrors.message}
-            </small>
-          )}
-        </div>
-        <button type="submit" class="btn btn-success">
-          Submit
-        </button>
-      </form>
-    </div>
+    <Container className="contact-refined">
+      <div className="contact-header">
+        <h2 className="contact-title">Get In Touch</h2>
+        <p className="contact-subtitle">
+          Let's connect! Feel free to reach out for opportunities, collaborations, or just to say hello.
+        </p>
+      </div>
+
+      <div className="contact-form-wrapper">
+        <form ref={form} onSubmit={sendEmail} className="contact-form">
+          <div className="form-field">
+            <label htmlFor="nameinput" className="form-label">
+              Name
+            </label>
+            <input
+              type="text"
+              className="form-input"
+              id="nameinput"
+              placeholder="Your name"
+              name="user_name"
+            />
+            {validationErrors.name && (
+              <small className="form-error">
+                {validationErrors.name}
+              </small>
+            )}
+          </div>
+
+          <div className="form-field">
+            <label htmlFor="emailinput" className="form-label">
+              Email
+            </label>
+            <input
+              type="email"
+              className="form-input"
+              id="emailinput"
+              placeholder="your.email@example.com"
+              name="user_email"
+            />
+            {validationErrors.email && (
+              <small className="form-error">
+                {validationErrors.email}
+              </small>
+            )}
+          </div>
+
+          <div className="form-field">
+            <label htmlFor="message" className="form-label">
+              Message
+            </label>
+            <textarea
+              className="form-input form-textarea"
+              id="message"
+              placeholder="Your message..."
+              name="message"
+            ></textarea>
+            {validationErrors.message && (
+              <small className="form-error">
+                {validationErrors.message}
+              </small>
+            )}
+          </div>
+
+          <button type="submit" className="form-submit">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </Container>
   );
 };
